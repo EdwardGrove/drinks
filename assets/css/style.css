@@ -37,6 +37,7 @@ main {
   background-size: cover;
   padding-top: 25px;
   padding: 2em;
+  
 }
 
 /* Define o estilo dos títulos do conteúdo principal */
@@ -62,20 +63,19 @@ li>a{
 }
 
 #inicio{
-  background-image: url("../imgs/soda-water-Ri_ya.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 25em;
-  height: 25em;
+  background-color: #7b7a7a46;
   border-radius: 50%;
-  padding: 11%;
+  padding: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #inicio>h2{
-  font-size: 2.5em;
+  font-size: 3em;
   color: black;
 }
 #inicio>p{
-  font-size: 2em;
+  font-size: 2.7em;
   color: black;
 }
 #livro>img{
@@ -89,9 +89,10 @@ img{
   padding: 5%;
 }
 article{
-  background-color: #7b7a7a46;
+  background-color: #48474746;
   margin-top: 2em;
   padding: 12%;
+  border-radius: 5%;
 }
 article>a{
   color: #000000;
@@ -105,6 +106,7 @@ h2{
 }
 p{
   font-size: 2em;
+  color: #000000;
 }
 #sobre{
   padding: 15%;
