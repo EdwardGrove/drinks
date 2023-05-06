@@ -7,16 +7,16 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #dbd693;
+  color: #000000;
   margin: 0;
   padding: 0;
-  text-shadow: 1px 1px 0 #333232;
+  text-shadow: 1px 1px 0 #e4d2d298;
 
 }
 
 /* Define o estilo do cabeçalho */
 header {
-  color: #dbd693;
+  color: #000000;
   padding: 20px;
 }
 
@@ -30,11 +30,11 @@ header h1 {
 /* Define o estilo do conteúdo principal */
 main {
   
-  background-image: url("../imgs/Cosmopolitan.jpg");
+  background-image: url("../imgs/Mojito.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   padding-top: 25px;
   padding: 2em;
 }
@@ -58,17 +58,17 @@ li{
 li>a{
     text-decoration: none;
     font-size: 2em;
-    color: #dbd693;
+    color: #000000;
 }
 
 #inicio{
-  background-image: url("../imgs/Manhattan.jpg");
+  background-image: url("../imgs/soda-water-Ri_ya.jpg");
   background-position: center;
   background-repeat: no-repeat;
   width: 25em;
   height: 25em;
   border-radius: 50%;
-  padding: 10%;
+  padding: 11%;
 }
 #inicio>h2{
   font-size: 2.5em;
@@ -94,7 +94,7 @@ article{
   padding: 12%;
 }
 article>a{
-  color: #dbd693;
+  color: #000000;
   font-size: 2em;
 }
 h3{
@@ -121,7 +121,7 @@ p{
   font-size: 3em;
 }
 #livro>a{
-  color: #dbd693;
+  color: #000000;
   font-size: 2em;
 }
 #drinks>h2{
